@@ -1,9 +1,11 @@
+/*This is a universal selector which applies to everything on the HTML file.*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*This section applies to the specified elements on the HTML file.*/
 body {
     background-color: #d9dcd6;
 }
@@ -17,6 +19,7 @@ p {
     font-size: 16px;
 }
 
+/*This section adds background and text color and defines the placement of the content in the header class.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +53,7 @@ p {
     margin-left: 25px;
 }
 
+/*This adds an image and size to anything with the hero class.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,12 +63,14 @@ p {
     background-position: center;
 }
 
+/*This section defines the space that the elements with the class content will take on the webpage.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*This section adds background color, text color, and text and image size and placement to the element and its children with the search-engine-optimization class.*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -78,15 +84,18 @@ p {
     max-height: 200px;
 }
 
+/*I put the float-left selector here because it makes its first appearance after the nested img element in the search-engine-optimization section.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
+/*This section adds background color, text color, and text and image size and placement to the element and its children with the online-reputation-management class.*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,6 +119,7 @@ p {
     font-size: 36px;
 }
 
+/*This section adds background color, text color, and text and image size and placement to the element and its children with the social-media-marketing class.*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,6 +138,7 @@ p {
     font-size: 36px;
 }
 
+/*This section applies placement, size, background color, and a font family to the content with the benefits class.*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -139,6 +150,7 @@ p {
     background-color: #2589bd;
 }
 
+/*Formats the content with the class benfit-lead.*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -155,6 +167,7 @@ p {
     max-width: 150px;
 }
 
+/*Formats the content with the class benfit-brand.*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -171,6 +184,7 @@ p {
     max-width: 150px;
 }
 
+/*Formats the content with the class benfit-cost.*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -187,6 +201,7 @@ p {
     max-width: 150px;
 }
 
+/*This section defines the content size, placement, and font family to the footer class.*/
 .footer {
     padding: 30px;
     clear: both;

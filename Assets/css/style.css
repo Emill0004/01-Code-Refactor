@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-/*This section applies to the specified elements on the HTML file.*/
+/*This section applies to the side-barspecified elements on the HTML file.*/
 body {
     background-color: #d9dcd6;
 }
@@ -138,8 +138,8 @@ p {
     font-size: 36px;
 }
 
-/*This section applies placement, size, background color, and a font family to the content with the benefits class.*/
-.benefits {
+/*This section applies placement, size, background color, and a font family to the content with the side-bars class.*/
+.side-bar {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -151,51 +151,51 @@ p {
 }
 
 /*Formats the content with the class benfit-lead.*/
-.benefit-lead {
+.side-bar-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.side-bar-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.side-bar-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*Formats the content with the class benfit-brand.*/
-.benefit-brand {
+.side-bar-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand h3 {
+.side-bar-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand img {
+.side-bar-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 /*Formats the content with the class benfit-cost.*/
-.benefit-cost {
+.side-bar-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost h3 {
+.side-bar-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost img {
+.side-bar-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
